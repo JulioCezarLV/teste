@@ -255,6 +255,7 @@ a:focus-visible {
 
 .plataformas-celular {
   position: absolute;
+  rotate: 50%;
   left: 32.129%;
   top: 51.607%;
   width: 45.582%;
