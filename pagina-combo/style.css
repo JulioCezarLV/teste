@@ -1,6 +1,3 @@
-/* =========================================================
-   TecLeo Combo+  —  layout desktop 1440px (com ajustes responsivos)
-   ========================================================= */
 
 :root {
   --fundo: #00030c;
@@ -47,7 +44,6 @@ a:focus-visible {
   outline-offset: 3px;
 }
 
-/* ---------- Botões ---------- */
 .botao {
   display: flex;
   align-items: center;
@@ -80,7 +76,6 @@ a:focus-visible {
   display: inline-flex;
 }
 
-/* ---------- Tipografia ---------- */
 .titulo {
   font-size: clamp(32px, 4vw, 48px);
   font-weight: 700;
@@ -97,9 +92,6 @@ a:focus-visible {
   line-height: 1.5;
 }
 
-/* =========================================================
-   HERO
-   ========================================================= */
 .hero {
   display: flex;
   align-items: center;
@@ -140,7 +132,6 @@ a:focus-visible {
   margin-top: 54px;
 }
 
-/* ---------- Selo "TecLeo + Língua / COMBO+" ---------- */
 .combo {
   position: relative;
   width: 348px;
@@ -171,7 +162,6 @@ a:focus-visible {
   border-color: var(--vermelho);
 }
 
-/* retângulos que "apagam" o miolo das bordas para encaixar os logos */
 .combo-mascara {
   background: var(--mascara);
 }
@@ -223,9 +213,6 @@ a:focus-visible {
   height: 51px;
 }
 
-/* =========================================================
-   SEÇÕES DE RECURSOS (imagem + texto)
-   ========================================================= */
 .recurso {
   display: grid;
   grid-template-columns: repeat(2, 588px);
@@ -254,7 +241,6 @@ a:focus-visible {
   gap: 16px;
 }
 
-/* monitor + celular sobreposto */
 .plataformas {
   position: relative;
   width: 498px;
@@ -275,7 +261,6 @@ a:focus-visible {
   height: 25.714%;
 }
 
-/* duas telas sobrepostas */
 .telas {
   position: relative;
   width: 496px;
@@ -306,9 +291,6 @@ a:focus-visible {
   height: auto;
 }
 
-/* =========================================================
-   DISPOSITIVOS
-   ========================================================= */
 .dispositivos {
   width: 1154px;
   max-width: 100%;
@@ -339,9 +321,6 @@ a:focus-visible {
   line-height: 1.2;
 }
 
-/* =========================================================
-   RODAPÉ
-   ========================================================= */
 .rodape {
   width: 1200px;
   max-width: 100%;
@@ -397,9 +376,6 @@ a:focus-visible {
   margin-top: 21px;
 }
 
-/* =========================================================
-   RESPONSIVO
-   ========================================================= */
 @media (max-width: 1240px) {
   .hero {
     height: auto;
