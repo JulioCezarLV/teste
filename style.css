@@ -219,6 +219,7 @@ a:focus-visible {
   column-gap: 24px;
   justify-content: center;
   align-items: center;
+  color: var(--cinza);
 }
 
 .recurso-assista { margin-top: 95px; }
@@ -235,6 +236,7 @@ a:focus-visible {
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  color: var(--branco)
 }
 
 .recurso-combo .recurso-texto {
@@ -255,8 +257,9 @@ a:focus-visible {
 
 .plataformas-celular {
   position: absolute;
-  left: 32.129%;
-  top: 51.607%;
+  transform: rotate(90deg);
+  left: -26px;
+  top: 330px;
   width: 45.582%;
   height: 25.714%;
 }
